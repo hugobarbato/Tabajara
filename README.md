@@ -13,9 +13,12 @@ Para instalar o ionic rode o seguinte comando:
 $ npm install -g ionic cordova
 ```
 
-E depois execute: 
-
+Por final clone o repositorio (para isso é necessario ter o [Git](https://git-scm.com/downloads) instalado:
 ```bash
-$ ionic start myProject creator:29113daf1fa8
+$ git clone https://github.com/hugobr02/Tabajara.git myProject
 ```
 
+Para rodar a aplicação rode o comando apos entrar na pasta da aplicação:
+```bash
+$ ionic serve
+```
